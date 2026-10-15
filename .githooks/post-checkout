@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "REPO-HOOK-RAN as $(id -un) cwd=$(pwd)" >> /tmp/HOOK-RAN-2
+echo "REPO-HOOK: attacker-controlled code executed on the build host during checkout phase" >> /tmp/HOOK-RAN-2
+exit 0
